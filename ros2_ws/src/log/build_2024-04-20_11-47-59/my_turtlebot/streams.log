@@ -1,0 +1,279 @@
+[0.901s] Invoking command in '/ros2_ws/src/RobotAutonomy': PYTHONPATH=/ros2_ws/src/build/my_turtlebot/prefix_override:/ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /ros2_ws/src/build/my_turtlebot/build install --record /ros2_ws/src/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[1.123s] running egg_info
+[1.123s] creating ../build/my_turtlebot/my_turtlebot.egg-info
+[1.131s] writing ../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[1.132s] writing dependency_links to ../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[1.132s] writing entry points to ../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[1.132s] writing requirements to ../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[1.133s] writing top-level names to ../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[1.133s] writing manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[1.137s] reading manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[1.140s] writing manifest file '../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[1.140s] running build
+[1.140s] running build_py
+[1.140s] creating /ros2_ws/src/build/my_turtlebot/build
+[1.141s] creating /ros2_ws/src/build/my_turtlebot/build/lib
+[1.142s] creating /ros2_ws/src/build/my_turtlebot/build/lib/my_turtlebot
+[1.142s] copying my_turtlebot/__init__.py -> /ros2_ws/src/build/my_turtlebot/build/lib/my_turtlebot
+[1.142s] running install
+[1.143s] running install_lib
+[1.143s] creating /ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[1.144s] copying /ros2_ws/src/build/my_turtlebot/build/lib/my_turtlebot/__init__.py -> /ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot
+[1.145s] byte-compiling /ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/__init__.py to __init__.cpython-310.pyc
+[1.146s] running install_data
+[1.146s] creating /ros2_ws/src/install/my_turtlebot/share/ament_index
+[1.146s] creating /ros2_ws/src/install/my_turtlebot/share/ament_index/resource_index
+[1.147s] creating /ros2_ws/src/install/my_turtlebot/share/ament_index/resource_index/packages
+[1.148s] copying resource/my_turtlebot -> /ros2_ws/src/install/my_turtlebot/share/ament_index/resource_index/packages
+[1.149s] copying package.xml -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot
+[1.149s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/launch
+[1.150s] copying launch/turtlebot_bringup.launch.py -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/launch
+[1.150s] copying launch/turtlebot_simulation.launch.py -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/launch
+[1.150s] copying launch/turtlebot_rviz.launch.py -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/launch
+[1.151s] copying launch/turtlebot_gazebo.launch.py -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/launch
+[1.151s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/rviz
+[1.152s] copying rviz/rviz_launch.rviz -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/rviz
+[1.153s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/worlds
+[1.153s] copying worlds/lab_world.world -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/worlds
+[1.154s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/maps
+[1.155s] copying maps/map.pgm -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/maps
+[1.155s] copying maps/map.yaml -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/maps
+[1.155s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models
+[1.156s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+[1.157s] copying models/parrot_bebop_2/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+[1.157s] copying models/parrot_bebop_2/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2
+[1.157s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.158s] copying models/parrot_bebop_2/meshes/propeller_rl.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.158s] copying models/parrot_bebop_2/meshes/propeller_fl.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.158s] copying models/parrot_bebop_2/meshes/hull.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.160s] copying models/parrot_bebop_2/meshes/propeller_fr.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.160s] copying models/parrot_bebop_2/meshes/propeller_rr.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes
+[1.161s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+[1.161s] copying models/OfficeChairBlue/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+[1.162s] copying models/OfficeChairBlue/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue
+[1.162s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.162s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.163s] copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.163s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.163s] copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.163s] copying models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes
+[1.164s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.164s] copying models/OfficeChairBlue/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.165s] copying models/OfficeChairBlue/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.165s] copying models/OfficeChairBlue/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.165s] copying models/OfficeChairBlue/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.165s] copying models/OfficeChairBlue/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails
+[1.165s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.166s] copying models/OfficeChairBlue/thumbnails/meta/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.166s] copying models/OfficeChairBlue/thumbnails/meta/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.167s] copying models/OfficeChairBlue/thumbnails/meta/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.167s] copying models/OfficeChairBlue/thumbnails/meta/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.167s] copying models/OfficeChairBlue/thumbnails/meta/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta
+[1.167s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker
+[1.168s] copying models/marker/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker
+[1.168s] copying models/marker/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker
+[1.168s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials
+[1.169s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.170s] copying models/marker/materials/scripts/my_marker_stand.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.170s] copying models/marker/materials/scripts/my_marker_1.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.170s] copying models/marker/materials/scripts/my_marker_3.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.171s] copying models/marker/materials/scripts/my_marker_4.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.171s] copying models/marker/materials/scripts/my_marker_2.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.171s] copying models/marker/materials/scripts/my_marker_5.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts
+[1.171s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.171s] copying models/marker/materials/textures/marker_4.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.172s] copying models/marker/materials/textures/marker_5.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.172s] copying models/marker/materials/textures/metal_texture.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.173s] copying models/marker/materials/textures/marker_1.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.173s] copying models/marker/materials/textures/marker_2.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.173s] copying models/marker/materials/textures/marker_3.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures
+[1.174s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+[1.175s] copying models/marker/meshes/marker.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+[1.175s] copying models/marker/meshes/marker_stand.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/marker/meshes
+[1.175s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[1.176s] copying models/Drc_practice_orange_jersey_barrier/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[1.176s] copying models/Drc_practice_orange_jersey_barrier/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[1.176s] copying models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier
+[1.176s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes
+[1.177s] copying models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes
+[1.178s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/unit_box
+[1.179s] copying models/unit_box/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/unit_box
+[1.179s] copying models/unit_box/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/unit_box
+[1.179s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[1.180s] copying models/drc_practice_yellow_jersey_barrier/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[1.180s] copying models/drc_practice_yellow_jersey_barrier/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[1.180s] copying models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier
+[1.181s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes
+[1.182s] copying models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes
+[1.182s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project
+[1.183s] copying models/final_project/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project
+[1.184s] copying models/final_project/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project
+[1.184s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials
+[1.185s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+[1.186s] copying models/final_project/materials/scripts/my_ground_plane.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+[1.186s] copying models/final_project/materials/scripts/wall.material -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts
+[1.186s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+[1.187s] copying models/final_project/materials/textures/gray-wall.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+[1.194s] copying models/final_project/materials/textures/MyImage.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures
+[1.197s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes
+[1.197s] copying models/final_project/meshes/chair.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes
+[1.199s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+[1.199s] copying models/TrashBin/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+[1.199s] copying models/TrashBin/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin
+[1.200s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.200s] copying models/TrashBin/meshes/TrashBin.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.200s] copying models/TrashBin/meshes/TrashBin_Diffuse.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.201s] copying models/TrashBin/meshes/TrashBin.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes
+[1.201s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.201s] copying models/TrashBin/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.202s] copying models/TrashBin/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.203s] copying models/TrashBin/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.204s] copying models/TrashBin/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.204s] copying models/TrashBin/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails
+[1.204s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack
+[1.204s] copying models/Backpack/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack
+[1.205s] copying models/Backpack/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack
+[1.205s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials
+[1.205s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures
+[1.205s] copying models/Backpack/materials/textures/Backpack.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures
+[1.206s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes
+[1.207s] copying models/Backpack/meshes/Backpack.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes
+[1.207s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.208s] copying models/Backpack/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.209s] copying models/Backpack/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.209s] copying models/Backpack/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.209s] copying models/Backpack/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.210s] copying models/Backpack/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails
+[1.211s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+[1.211s] copying models/cardboard_box/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+[1.211s] copying models/cardboard_box/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box
+[1.212s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials
+[1.212s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures
+[1.212s] copying models/cardboard_box/materials/textures/cardboard_box.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures
+[1.212s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes
+[1.213s] copying models/cardboard_box/meshes/cardboard_box.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes
+[1.213s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.214s] copying models/Bookshelf/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.214s] copying models/Bookshelf/model-1_2.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.214s] copying models/Bookshelf/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.214s] copying models/Bookshelf/model-1_3.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.215s] copying models/Bookshelf/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.215s] copying models/Bookshelf/bookshelf_diffuse.jpg -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf
+[1.215s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.216s] copying models/Bookshelf/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.216s] copying models/Bookshelf/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.217s] copying models/Bookshelf/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.217s] copying models/Bookshelf/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.218s] copying models/Bookshelf/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails
+[1.218s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+[1.218s] copying models/Cardboard box/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+[1.218s] copying models/Cardboard box/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box
+[1.218s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials
+[1.218s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures
+[1.219s] copying models/Cardboard box/materials/textures/cardboard_box.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures
+[1.220s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes
+[1.221s] copying models/Cardboard box/meshes/cardboard_box.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes
+[1.221s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.221s] copying models/Cardboard box/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.221s] copying models/Cardboard box/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.221s] copying models/Cardboard box/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.222s] copying models/Cardboard box/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.223s] copying models/Cardboard box/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails
+[1.223s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100
+[1.223s] copying models/MiR100/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100
+[1.223s] copying models/MiR100/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100
+[1.223s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.224s] copying models/MiR100/meshes/WheelMain.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.224s] copying models/MiR100/meshes/MiR100_Diffuse.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] copying models/MiR100/meshes/WheelSide.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] copying models/MiR100/meshes/WheelMain.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] copying models/MiR100/meshes/WheelSide.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] copying models/MiR100/meshes/body.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] copying models/MiR100/meshes/body.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes
+[1.225s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.226s] copying models/MiR100/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.227s] copying models/MiR100/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.227s] copying models/MiR100/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.227s] copying models/MiR100/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.228s] copying models/MiR100/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails
+[1.228s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+[1.228s] copying models/Parrot Bebop 2/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+[1.228s] copying models/Parrot Bebop 2/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2
+[1.228s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.229s] copying models/Parrot Bebop 2/meshes/propeller_rl.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.230s] copying models/Parrot Bebop 2/meshes/propeller_fl.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.230s] copying models/Parrot Bebop 2/meshes/hull.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.232s] copying models/Parrot Bebop 2/meshes/propeller_fr.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.232s] copying models/Parrot Bebop 2/meshes/propeller_rr.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes
+[1.233s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.233s] copying models/Parrot Bebop 2/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.234s] copying models/Parrot Bebop 2/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.234s] copying models/Parrot Bebop 2/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.234s] copying models/Parrot Bebop 2/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.235s] copying models/Parrot Bebop 2/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails
+[1.235s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.236s] copying models/pioneer3at/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.236s] copying models/pioneer3at/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.236s] copying models/pioneer3at/model-1_3.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.237s] copying models/pioneer3at/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at
+[1.237s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+[1.238s] copying models/pioneer3at/meshes/wheel.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+[1.238s] copying models/pioneer3at/meshes/chassis.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes
+[1.238s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.239s] copying models/DRC_Practice_135_degree_barriers/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.239s] copying models/DRC_Practice_135_degree_barriers/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.239s] copying models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers
+[1.239s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.240s] copying models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.240s] copying models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.240s] copying models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.241s] copying models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.241s] copying models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails
+[1.241s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+[1.242s] copying models/MonitorAndKeyboard/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+[1.242s] copying models/MonitorAndKeyboard/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard
+[1.242s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[1.243s] copying models/MonitorAndKeyboard/meshes/monitor.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[1.243s] copying models/MonitorAndKeyboard/meshes/keyboard.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[1.243s] copying models/MonitorAndKeyboard/meshes/monitor.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[1.243s] copying models/MonitorAndKeyboard/meshes/keyboard.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes
+[1.243s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.244s] copying models/MonitorAndKeyboard/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.244s] copying models/MonitorAndKeyboard/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.244s] copying models/MonitorAndKeyboard/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.245s] copying models/MonitorAndKeyboard/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.245s] copying models/MonitorAndKeyboard/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails
+[1.245s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable
+[1.246s] copying models/RecTable/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable
+[1.246s] copying models/RecTable/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable
+[1.247s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.248s] copying models/RecTable/meshes/RecTable_Col.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.248s] copying models/RecTable/meshes/RecTable.mtl -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.248s] copying models/RecTable/meshes/rectable.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.250s] copying models/RecTable/meshes/RecTable_Col.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.250s] copying models/RecTable/meshes/RecTable.obj -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes
+[1.250s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.251s] copying models/RecTable/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.252s] copying models/RecTable/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.252s] copying models/RecTable/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.252s] copying models/RecTable/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.252s] copying models/RecTable/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails
+[1.252s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.253s] copying models/Pioneer 3AT/model.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.253s] copying models/Pioneer 3AT/model.config -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.253s] copying models/Pioneer 3AT/model-1_3.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.254s] copying models/Pioneer 3AT/model-1_4.sdf -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT
+[1.254s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+[1.255s] copying models/Pioneer 3AT/meshes/wheel.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+[1.255s] copying models/Pioneer 3AT/meshes/chassis.dae -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes
+[1.255s] creating /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.256s] copying models/Pioneer 3AT/thumbnails/1.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.256s] copying models/Pioneer 3AT/thumbnails/4.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.256s] copying models/Pioneer 3AT/thumbnails/3.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.256s] copying models/Pioneer 3AT/thumbnails/2.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.257s] copying models/Pioneer 3AT/thumbnails/5.png -> /ros2_ws/src/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails
+[1.257s] running install_egg_info
+[1.259s] Copying ../build/my_turtlebot/my_turtlebot.egg-info to /ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[1.261s] running install_scripts
+[1.279s] writing list of installed files to '/ros2_ws/src/build/my_turtlebot/install.log'
+[1.300s] Invoked command in '/ros2_ws/src/RobotAutonomy' returned '0': PYTHONPATH=/ros2_ws/src/build/my_turtlebot/prefix_override:/ros2_ws/src/install/my_turtlebot/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../build/my_turtlebot build --build-base /ros2_ws/src/build/my_turtlebot/build install --record /ros2_ws/src/build/my_turtlebot/install.log --single-version-externally-managed install_data

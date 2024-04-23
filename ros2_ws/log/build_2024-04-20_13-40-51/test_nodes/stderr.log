@@ -1,0 +1,5 @@
+  File "/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes/lidar_test.py", line 30
+    ef main(args=None):
+       ^^^^
+SyntaxError: invalid syntax
+

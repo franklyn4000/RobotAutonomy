@@ -1,0 +1,29 @@
+[2.965s] Invoking command in '/ros2_ws/src/test_nodes': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data
+[3.561s] running egg_info
+[3.562s] writing ../../build/test_nodes/test_nodes.egg-info/PKG-INFO
+[3.563s] writing dependency_links to ../../build/test_nodes/test_nodes.egg-info/dependency_links.txt
+[3.564s] writing entry points to ../../build/test_nodes/test_nodes.egg-info/entry_points.txt
+[3.565s] writing requirements to ../../build/test_nodes/test_nodes.egg-info/requires.txt
+[3.565s] writing top-level names to ../../build/test_nodes/test_nodes.egg-info/top_level.txt
+[3.572s] reading manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[3.574s] writing manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[3.574s] running build
+[3.574s] running build_py
+[3.575s] copying test_nodes/lidar_test.py -> /ros2_ws/build/test_nodes/build/lib/test_nodes
+[3.577s] running install
+[3.578s] running install_lib
+[3.583s] copying /ros2_ws/build/test_nodes/build/lib/test_nodes/lidar_test.py -> /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes
+[3.584s] byte-compiling /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes/lidar_test.py to lidar_test.cpython-310.pyc
+[3.585s]   File "/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes/lidar_test.py", line 30
+[3.585s]     ef main(args=None):
+[3.585s]        ^^^^
+[3.585s] SyntaxError: invalid syntax
+[3.586s] 
+[3.586s] running install_data
+[3.586s] running install_egg_info
+[3.589s] removing '/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[3.590s] Copying ../../build/test_nodes/test_nodes.egg-info to /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info
+[3.597s] running install_scripts
+[3.644s] Installing lidar_test script to /ros2_ws/install/test_nodes/lib/test_nodes
+[3.646s] writing list of installed files to '/ros2_ws/build/test_nodes/install.log'
+[3.702s] Invoked command in '/ros2_ws/src/test_nodes' returned '0': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data

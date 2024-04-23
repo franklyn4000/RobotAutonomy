@@ -1,0 +1,24 @@
+[4.866s] Invoking command in '/ros2_ws/src/lidar_mapper': PYTHONPATH=/ros2_ws/build/lidar_mapper/prefix_override:/ros2_ws/install/lidar_mapper/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_mapper build --build-base /ros2_ws/build/lidar_mapper/build install --record /ros2_ws/build/lidar_mapper/install.log --single-version-externally-managed install_data
+[5.800s] running egg_info
+[5.802s] writing ../../build/lidar_mapper/lidar_mapper.egg-info/PKG-INFO
+[5.805s] writing dependency_links to ../../build/lidar_mapper/lidar_mapper.egg-info/dependency_links.txt
+[5.807s] writing entry points to ../../build/lidar_mapper/lidar_mapper.egg-info/entry_points.txt
+[5.809s] writing requirements to ../../build/lidar_mapper/lidar_mapper.egg-info/requires.txt
+[5.812s] writing top-level names to ../../build/lidar_mapper/lidar_mapper.egg-info/top_level.txt
+[5.819s] reading manifest file '../../build/lidar_mapper/lidar_mapper.egg-info/SOURCES.txt'
+[5.824s] writing manifest file '../../build/lidar_mapper/lidar_mapper.egg-info/SOURCES.txt'
+[5.835s] running build
+[5.836s] running build_py
+[5.836s] copying lidar_mapper/lidar_mapper_node.py -> /ros2_ws/build/lidar_mapper/build/lib/lidar_mapper
+[5.836s] running install
+[5.836s] running install_lib
+[5.837s] copying /ros2_ws/build/lidar_mapper/build/lib/lidar_mapper/lidar_mapper_node.py -> /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper
+[5.846s] byte-compiling /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper/lidar_mapper_node.py to lidar_mapper_node.cpython-310.pyc
+[5.849s] running install_data
+[5.850s] running install_egg_info
+[5.865s] removing '/ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper-0.0.0-py3.10.egg-info' (and everything under it)
+[5.865s] Copying ../../build/lidar_mapper/lidar_mapper.egg-info to /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper-0.0.0-py3.10.egg-info
+[5.869s] running install_scripts
+[5.927s] Installing mapper script to /ros2_ws/install/lidar_mapper/lib/lidar_mapper
+[5.928s] writing list of installed files to '/ros2_ws/build/lidar_mapper/install.log'
+[6.007s] Invoked command in '/ros2_ws/src/lidar_mapper' returned '0': PYTHONPATH=/ros2_ws/build/lidar_mapper/prefix_override:/ros2_ws/install/lidar_mapper/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_mapper build --build-base /ros2_ws/build/lidar_mapper/build install --record /ros2_ws/build/lidar_mapper/install.log --single-version-externally-managed install_data

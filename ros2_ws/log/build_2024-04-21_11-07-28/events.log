@@ -1,0 +1,218 @@
+[0.000000] (-) TimerEvent: {}
+[0.000570] (lidar_map_publisher) JobQueued: {'identifier': 'lidar_map_publisher', 'dependencies': OrderedDict()}
+[0.000698] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.000750] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000788] (test_nodes) JobQueued: {'identifier': 'test_nodes', 'dependencies': OrderedDict()}
+[0.000823] (lidar_map_publisher) JobStarted: {'identifier': 'lidar_map_publisher'}
+[0.023293] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.042372] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.069644] (test_nodes) JobStarted: {'identifier': 'test_nodes'}
+[0.089754] (-) TimerEvent: {}
+[0.190367] (-) TimerEvent: {}
+[0.291040] (-) TimerEvent: {}
+[0.391744] (-) TimerEvent: {}
+[0.502878] (-) TimerEvent: {}
+[0.603652] (-) TimerEvent: {}
+[0.704899] (-) TimerEvent: {}
+[0.805879] (-) TimerEvent: {}
+[0.906628] (-) TimerEvent: {}
+[1.009902] (-) TimerEvent: {}
+[1.119150] (-) TimerEvent: {}
+[1.219907] (-) TimerEvent: {}
+[1.348814] (-) TimerEvent: {}
+[1.449663] (-) TimerEvent: {}
+[1.550590] (-) TimerEvent: {}
+[1.651441] (-) TimerEvent: {}
+[1.752221] (-) TimerEvent: {}
+[1.852917] (-) TimerEvent: {}
+[1.956894] (-) TimerEvent: {}
+[2.058163] (-) TimerEvent: {}
+[2.158978] (-) TimerEvent: {}
+[2.259853] (-) TimerEvent: {}
+[2.360633] (-) TimerEvent: {}
+[2.461304] (-) TimerEvent: {}
+[2.603661] (-) TimerEvent: {}
+[2.706560] (-) TimerEvent: {}
+[2.809776] (-) TimerEvent: {}
+[2.911819] (-) TimerEvent: {}
+[3.012845] (-) TimerEvent: {}
+[3.113913] (-) TimerEvent: {}
+[3.214711] (-) TimerEvent: {}
+[3.315393] (-) TimerEvent: {}
+[3.416798] (-) TimerEvent: {}
+[3.517714] (-) TimerEvent: {}
+[3.618398] (-) TimerEvent: {}
+[3.719070] (-) TimerEvent: {}
+[3.819836] (-) TimerEvent: {}
+[3.920535] (-) TimerEvent: {}
+[4.021261] (-) TimerEvent: {}
+[4.122037] (-) TimerEvent: {}
+[4.222812] (-) TimerEvent: {}
+[4.323629] (-) TimerEvent: {}
+[4.424507] (-) TimerEvent: {}
+[4.528216] (-) TimerEvent: {}
+[4.629010] (-) TimerEvent: {}
+[4.729981] (-) TimerEvent: {}
+[4.830782] (-) TimerEvent: {}
+[4.931887] (-) TimerEvent: {}
+[5.032989] (-) TimerEvent: {}
+[5.134124] (-) TimerEvent: {}
+[5.234759] (-) TimerEvent: {}
+[5.335336] (-) TimerEvent: {}
+[5.437936] (-) TimerEvent: {}
+[5.539908] (-) TimerEvent: {}
+[5.640897] (-) TimerEvent: {}
+[5.742513] (-) TimerEvent: {}
+[5.843575] (-) TimerEvent: {}
+[5.944313] (-) TimerEvent: {}
+[6.045379] (-) TimerEvent: {}
+[6.147781] (-) TimerEvent: {}
+[6.249136] (-) TimerEvent: {}
+[6.350096] (-) TimerEvent: {}
+[6.459621] (-) TimerEvent: {}
+[6.561095] (-) TimerEvent: {}
+[6.664399] (-) TimerEvent: {}
+[6.765064] (-) TimerEvent: {}
+[6.871486] (-) TimerEvent: {}
+[6.972277] (-) TimerEvent: {}
+[7.072944] (-) TimerEvent: {}
+[7.173862] (-) TimerEvent: {}
+[7.276531] (-) TimerEvent: {}
+[7.378948] (-) TimerEvent: {}
+[7.490184] (-) TimerEvent: {}
+[7.628736] (-) TimerEvent: {}
+[7.729501] (-) TimerEvent: {}
+[7.830332] (-) TimerEvent: {}
+[7.934778] (-) TimerEvent: {}
+[8.035817] (-) TimerEvent: {}
+[8.143463] (-) TimerEvent: {}
+[8.244735] (-) TimerEvent: {}
+[8.383344] (-) TimerEvent: {}
+[8.483981] (-) TimerEvent: {}
+[8.541002] (lidar_map_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_map_publisher', 'build', '--build-base', '/ros2_ws/build/lidar_map_publisher/build', 'install', '--record', '/ros2_ws/build/lidar_map_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/lidar_map_publisher', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'GIT_ASKPASS': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4319f063-0c69-4894-9f92-23ac82fd246e.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a5e6ff6d-461a-4ac9-a863-35412f45a38f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ros/humble/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ce89087bfc.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/ros2_ws/install/test_nodes:/ros2_ws/install/py_pubsub:/ros2_ws/install/my_turtlebot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/lidar_map_publisher', 'XDG_DATA_DIRS': '/usr/share/gnome:/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.568154] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtlebot', 'build', '--build-base', '/ros2_ws/build/my_turtlebot/build', 'install', '--record', '/ros2_ws/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/RobotAutonomy', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'GIT_ASKPASS': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4319f063-0c69-4894-9f92-23ac82fd246e.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a5e6ff6d-461a-4ac9-a863-35412f45a38f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ros/humble/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ce89087bfc.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/ros2_ws/install/test_nodes:/ros2_ws/install/py_pubsub:/ros2_ws/install/my_turtlebot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/my_turtlebot', 'XDG_DATA_DIRS': '/usr/share/gnome:/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ros2_ws/build/my_turtlebot/prefix_override:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.600564] (-) TimerEvent: {}
+[8.600958] (test_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_nodes', 'build', '--build-base', '/ros2_ws/build/test_nodes/build', 'install', '--record', '/ros2_ws/build/test_nodes/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/test_nodes', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'GIT_ASKPASS': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4319f063-0c69-4894-9f92-23ac82fd246e.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a5e6ff6d-461a-4ac9-a863-35412f45a38f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ros/humble/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ce89087bfc.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/ros2_ws/install/test_nodes:/ros2_ws/install/py_pubsub:/ros2_ws/install/my_turtlebot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/test_nodes', 'XDG_DATA_DIRS': '/usr/share/gnome:/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[8.700791] (-) TimerEvent: {}
+[8.801966] (-) TimerEvent: {}
+[8.904011] (-) TimerEvent: {}
+[9.010674] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/ros2_ws/build/py_pubsub/build', 'install', '--record', '/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/py_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'GIT_ASKPASS': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'BROWSER': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/bin/helpers/browser.sh', 'HOME': '/root', 'OLDPWD': '/ros2_ws/src', 'TERM_PROGRAM_VERSION': '1.88.1', 'VSCODE_IPC_HOOK_CLI': '/tmp/vscode-ipc-4319f063-0c69-4894-9f92-23ac82fd246e.sock', 'ROS_PYTHON_VERSION': '3', 'GTK_MODULES': 'appmenu-gtk-module', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/bin/e170252f762678dec6ca2cc69aba1570769a5d39/node', 'COLORTERM': 'truecolor', 'REMOTE_CONTAINERS': 'true', 'UBUNTU_MENUPROXY': '1', 'DEBUGINFOD_URLS': '', 'COLCON_PREFIX_PATH': '/ros2_ws/install', 'ROS_DISTRO': 'humble', 'REMOTE_CONTAINERS_IPC': '/tmp/vscode-remote-containers-ipc-a5e6ff6d-461a-4ac9-a863-35412f45a38f.sock', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/opt/ros/humble/bin', 'REMOTE_CONTAINERS_SOCKETS': '[]', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/tmp/vscode-git-ce89087bfc.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '11', 'AMENT_PREFIX_PATH': '/ros2_ws/install/test_nodes:/ros2_ws/install/py_pubsub:/ros2_ws/install/my_turtlebot:/opt/ros/humble', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PASSWD': 'ubuntu', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/ros2_ws/build/py_pubsub', 'XDG_DATA_DIRS': '/usr/share/gnome:/root/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/ros2_ws/build/py_pubsub/prefix_override:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[9.016122] (-) TimerEvent: {}
+[9.117851] (-) TimerEvent: {}
+[9.218433] (-) TimerEvent: {}
+[9.319024] (-) TimerEvent: {}
+[9.419514] (-) TimerEvent: {}
+[9.520608] (-) TimerEvent: {}
+[9.622578] (-) TimerEvent: {}
+[9.725157] (-) TimerEvent: {}
+[9.826272] (-) TimerEvent: {}
+[9.927343] (-) TimerEvent: {}
+[10.017992] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[10.020503] (my_turtlebot) StdoutLine: {'line': b'writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[10.021855] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[10.022603] (my_turtlebot) StdoutLine: {'line': b'writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[10.023584] (my_turtlebot) StdoutLine: {'line': b'writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[10.024701] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[10.028245] (-) TimerEvent: {}
+[10.050024] (my_turtlebot) StdoutLine: {'line': b"reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[10.069523] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[10.070092] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[10.070340] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[10.085618] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[10.087686] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[10.088903] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[10.128483] (-) TimerEvent: {}
+[10.164470] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.178768] (my_turtlebot) StdoutLine: {'line': b"removing '/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.189364] (test_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[10.193685] (my_turtlebot) StdoutLine: {'line': b'Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info\n'}
+[10.196657] (test_nodes) StdoutLine: {'line': b'writing ../../build/test_nodes/test_nodes.egg-info/PKG-INFO\n'}
+[10.203841] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[10.210952] (test_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/test_nodes/test_nodes.egg-info/dependency_links.txt\n'}
+[10.211217] (test_nodes) StdoutLine: {'line': b'writing entry points to ../../build/test_nodes/test_nodes.egg-info/entry_points.txt\n'}
+[10.211385] (test_nodes) StdoutLine: {'line': b'writing requirements to ../../build/test_nodes/test_nodes.egg-info/requires.txt\n'}
+[10.211533] (test_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/test_nodes/test_nodes.egg-info/top_level.txt\n'}
+[10.221933] (test_nodes) StdoutLine: {'line': b"reading manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'\n"}
+[10.225747] (test_nodes) StdoutLine: {'line': b"writing manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'\n"}
+[10.226266] (test_nodes) StdoutLine: {'line': b'running build\n'}
+[10.227027] (test_nodes) StdoutLine: {'line': b'running build_py\n'}
+[10.228580] (-) TimerEvent: {}
+[10.230305] (test_nodes) StdoutLine: {'line': b'running install\n'}
+[10.238169] (lidar_map_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[10.253268] (test_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[10.253546] (test_nodes) StdoutLine: {'line': b'running install_data\n'}
+[10.253733] (test_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.253978] (lidar_map_publisher) StdoutLine: {'line': b'creating ../../build/lidar_map_publisher/lidar_map_publisher.egg-info\n'}
+[10.254172] (lidar_map_publisher) StdoutLine: {'line': b'writing ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/PKG-INFO\n'}
+[10.254452] (lidar_map_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/dependency_links.txt\n'}
+[10.254645] (lidar_map_publisher) StdoutLine: {'line': b'writing entry points to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/entry_points.txt\n'}
+[10.254821] (lidar_map_publisher) StdoutLine: {'line': b'writing requirements to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/requires.txt\n'}
+[10.254985] (lidar_map_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/top_level.txt\n'}
+[10.255148] (lidar_map_publisher) StdoutLine: {'line': b"writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'\n"}
+[10.260316] (lidar_map_publisher) StdoutLine: {'line': b"reading manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'\n"}
+[10.278976] (lidar_map_publisher) StdoutLine: {'line': b"writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'\n"}
+[10.280436] (lidar_map_publisher) StdoutLine: {'line': b'running build\n'}
+[10.280921] (lidar_map_publisher) StdoutLine: {'line': b'running build_py\n'}
+[10.281413] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/build/lidar_map_publisher/build\n'}
+[10.281617] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/build/lidar_map_publisher/build/lib\n'}
+[10.281780] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher\n'}
+[10.283334] (lidar_map_publisher) StdoutLine: {'line': b'copying lidar_map_publisher/lidar_map_publisher.py -> /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher\n'}
+[10.286690] (lidar_map_publisher) StdoutLine: {'line': b'copying lidar_map_publisher/__init__.py -> /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher\n'}
+[10.287308] (lidar_map_publisher) StdoutLine: {'line': b'running install\n'}
+[10.287700] (lidar_map_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[10.288056] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher\n'}
+[10.298618] (lidar_map_publisher) StdoutLine: {'line': b'copying /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher/lidar_map_publisher.py -> /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher\n'}
+[10.299695] (lidar_map_publisher) StdoutLine: {'line': b'copying /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher/__init__.py -> /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher\n'}
+[10.300877] (test_nodes) StdoutLine: {'line': b"removing '/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.301385] (lidar_map_publisher) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher/lidar_map_publisher.py to lidar_map_publisher.cpython-310.pyc\n'}
+[10.310033] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[10.310530] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[10.310729] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[10.310911] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[10.311068] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[10.311227] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[10.317505] (test_nodes) StdoutLine: {'line': b'Copying ../../build/test_nodes/test_nodes.egg-info to /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info\n'}
+[10.318217] (lidar_map_publisher) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher/__init__.py to __init__.cpython-310.pyc\n'}
+[10.318830] (lidar_map_publisher) StdoutLine: {'line': b'running install_data\n'}
+[10.319134] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/install/lidar_map_publisher/share/ament_index\n'}
+[10.327941] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index\n'}
+[10.328873] (-) TimerEvent: {}
+[10.329302] (test_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[10.329801] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.330018] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/my_turtlebot/install.log'\n"}
+[10.330277] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[10.330488] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[10.330801] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[10.330995] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[10.331165] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[10.333257] (lidar_map_publisher) StdoutLine: {'line': b'creating /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index/packages\n'}
+[10.345013] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[10.347759] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.360727] (lidar_map_publisher) StdoutLine: {'line': b'copying resource/lidar_map_publisher -> /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index/packages\n'}
+[10.361963] (py_pubsub) StdoutLine: {'line': b"removing '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[10.366946] (lidar_map_publisher) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/lidar_map_publisher/share/lidar_map_publisher\n'}
+[10.371285] (lidar_map_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[10.396114] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[10.408612] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[10.431337] (-) TimerEvent: {}
+[10.432286] (lidar_map_publisher) StdoutLine: {'line': b'Copying ../../build/lidar_map_publisher/lidar_map_publisher.egg-info to /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info\n'}
+[10.481095] (lidar_map_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[10.502311] (my_turtlebot) CommandEnded: {'returncode': 0}
+[10.507344] (test_nodes) StdoutLine: {'line': b'Installing lidar_test script to /ros2_ws/install/test_nodes/lib/test_nodes\n'}
+[10.508735] (test_nodes) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/test_nodes/install.log'\n"}
+[10.534121] (-) TimerEvent: {}
+[10.539384] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.546127] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[10.558374] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/py_pubsub/install.log'\n"}
+[10.639940] (-) TimerEvent: {}
+[10.660543] (lidar_map_publisher) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/lidar_map_publisher/install.log'\n"}
+[10.675182] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[10.680766] (test_nodes) CommandEnded: {'returncode': 0}
+[10.723372] (test_nodes) JobEnded: {'identifier': 'test_nodes', 'rc': 0}
+[10.736431] (py_pubsub) CommandEnded: {'returncode': 0}
+[10.740247] (-) TimerEvent: {}
+[10.782304] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[10.813262] (lidar_map_publisher) CommandEnded: {'returncode': 0}
+[10.837389] (lidar_map_publisher) JobEnded: {'identifier': 'lidar_map_publisher', 'rc': 0}
+[10.965196] (-) TimerEvent: {}
+[10.997957] (-) EventReactorShutdown: {}

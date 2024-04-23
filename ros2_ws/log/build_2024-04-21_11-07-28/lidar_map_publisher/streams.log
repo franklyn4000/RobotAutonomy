@@ -1,0 +1,36 @@
+[8.545s] Invoking command in '/ros2_ws/src/lidar_map_publisher': PYTHONPATH=/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_map_publisher build --build-base /ros2_ws/build/lidar_map_publisher/build install --record /ros2_ws/build/lidar_map_publisher/install.log --single-version-externally-managed install_data
+[10.252s] running egg_info
+[10.253s] creating ../../build/lidar_map_publisher/lidar_map_publisher.egg-info
+[10.254s] writing ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/PKG-INFO
+[10.254s] writing dependency_links to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/dependency_links.txt
+[10.254s] writing entry points to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/entry_points.txt
+[10.254s] writing requirements to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/requires.txt
+[10.254s] writing top-level names to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/top_level.txt
+[10.254s] writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'
+[10.260s] reading manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'
+[10.279s] writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'
+[10.280s] running build
+[10.280s] running build_py
+[10.281s] creating /ros2_ws/build/lidar_map_publisher/build
+[10.281s] creating /ros2_ws/build/lidar_map_publisher/build/lib
+[10.282s] creating /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher
+[10.283s] copying lidar_map_publisher/lidar_map_publisher.py -> /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher
+[10.286s] copying lidar_map_publisher/__init__.py -> /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher
+[10.287s] running install
+[10.287s] running install_lib
+[10.287s] creating /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher
+[10.299s] copying /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher/lidar_map_publisher.py -> /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher
+[10.300s] copying /ros2_ws/build/lidar_map_publisher/build/lib/lidar_map_publisher/__init__.py -> /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher
+[10.301s] byte-compiling /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher/lidar_map_publisher.py to lidar_map_publisher.cpython-310.pyc
+[10.318s] byte-compiling /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher/__init__.py to __init__.cpython-310.pyc
+[10.318s] running install_data
+[10.318s] creating /ros2_ws/install/lidar_map_publisher/share/ament_index
+[10.328s] creating /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index
+[10.333s] creating /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index/packages
+[10.360s] copying resource/lidar_map_publisher -> /ros2_ws/install/lidar_map_publisher/share/ament_index/resource_index/packages
+[10.366s] copying package.xml -> /ros2_ws/install/lidar_map_publisher/share/lidar_map_publisher
+[10.371s] running install_egg_info
+[10.432s] Copying ../../build/lidar_map_publisher/lidar_map_publisher.egg-info to /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info
+[10.480s] running install_scripts
+[10.660s] writing list of installed files to '/ros2_ws/build/lidar_map_publisher/install.log'
+[10.813s] Invoked command in '/ros2_ws/src/lidar_map_publisher' returned '0': PYTHONPATH=/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_map_publisher build --build-base /ros2_ws/build/lidar_map_publisher/build install --record /ros2_ws/build/lidar_map_publisher/install.log --single-version-externally-managed install_data

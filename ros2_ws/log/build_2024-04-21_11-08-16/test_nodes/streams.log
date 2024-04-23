@@ -1,0 +1,21 @@
+[7.834s] Invoking command in '/ros2_ws/src/test_nodes': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data
+[9.705s] running egg_info
+[9.708s] writing ../../build/test_nodes/test_nodes.egg-info/PKG-INFO
+[9.709s] writing dependency_links to ../../build/test_nodes/test_nodes.egg-info/dependency_links.txt
+[9.709s] writing entry points to ../../build/test_nodes/test_nodes.egg-info/entry_points.txt
+[9.709s] writing requirements to ../../build/test_nodes/test_nodes.egg-info/requires.txt
+[9.710s] writing top-level names to ../../build/test_nodes/test_nodes.egg-info/top_level.txt
+[9.726s] reading manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[9.728s] writing manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[9.729s] running build
+[9.729s] running build_py
+[9.731s] running install
+[9.733s] running install_lib
+[9.739s] running install_data
+[9.739s] running install_egg_info
+[9.750s] removing '/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[9.751s] Copying ../../build/test_nodes/test_nodes.egg-info to /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info
+[9.761s] running install_scripts
+[9.891s] Installing lidar_test script to /ros2_ws/install/test_nodes/lib/test_nodes
+[9.892s] writing list of installed files to '/ros2_ws/build/test_nodes/install.log'
+[10.021s] Invoked command in '/ros2_ws/src/test_nodes' returned '0': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data

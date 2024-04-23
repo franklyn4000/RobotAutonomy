@@ -1,0 +1,197 @@
+[0.000000] (-) TimerEvent: {}
+[0.000975] (lidar_map_publisher) JobQueued: {'identifier': 'lidar_map_publisher', 'dependencies': OrderedDict()}
+[0.002160] (lidar_mapper) JobQueued: {'identifier': 'lidar_mapper', 'dependencies': OrderedDict()}
+[0.011799] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.012138] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.012248] (test_nodes) JobQueued: {'identifier': 'test_nodes', 'dependencies': OrderedDict()}
+[0.012353] (lidar_map_publisher) JobStarted: {'identifier': 'lidar_map_publisher'}
+[0.029301] (lidar_mapper) JobStarted: {'identifier': 'lidar_mapper'}
+[0.047722] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.060909] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.087517] (test_nodes) JobStarted: {'identifier': 'test_nodes'}
+[0.098787] (-) TimerEvent: {}
+[0.201511] (-) TimerEvent: {}
+[0.306869] (-) TimerEvent: {}
+[0.409823] (-) TimerEvent: {}
+[0.510695] (-) TimerEvent: {}
+[0.611692] (-) TimerEvent: {}
+[0.712326] (-) TimerEvent: {}
+[0.812905] (-) TimerEvent: {}
+[0.913720] (-) TimerEvent: {}
+[1.014562] (-) TimerEvent: {}
+[1.115220] (-) TimerEvent: {}
+[1.216237] (-) TimerEvent: {}
+[1.317242] (-) TimerEvent: {}
+[1.420569] (-) TimerEvent: {}
+[1.534504] (-) TimerEvent: {}
+[1.635412] (-) TimerEvent: {}
+[1.744041] (-) TimerEvent: {}
+[1.844711] (-) TimerEvent: {}
+[1.945539] (-) TimerEvent: {}
+[2.059977] (-) TimerEvent: {}
+[2.171318] (-) TimerEvent: {}
+[2.275073] (-) TimerEvent: {}
+[2.375752] (-) TimerEvent: {}
+[2.476480] (-) TimerEvent: {}
+[2.577126] (-) TimerEvent: {}
+[2.677759] (-) TimerEvent: {}
+[2.778809] (-) TimerEvent: {}
+[2.879502] (-) TimerEvent: {}
+[2.980158] (-) TimerEvent: {}
+[3.081239] (-) TimerEvent: {}
+[3.182526] (-) TimerEvent: {}
+[3.283945] (-) TimerEvent: {}
+[3.384760] (-) TimerEvent: {}
+[3.485366] (-) TimerEvent: {}
+[3.586021] (-) TimerEvent: {}
+[3.686691] (-) TimerEvent: {}
+[3.787485] (-) TimerEvent: {}
+[3.888180] (-) TimerEvent: {}
+[3.988818] (-) TimerEvent: {}
+[4.091476] (-) TimerEvent: {}
+[4.192070] (-) TimerEvent: {}
+[4.292693] (-) TimerEvent: {}
+[4.393260] (-) TimerEvent: {}
+[4.494187] (-) TimerEvent: {}
+[4.595808] (-) TimerEvent: {}
+[4.699803] (-) TimerEvent: {}
+[4.801030] (-) TimerEvent: {}
+[4.902164] (-) TimerEvent: {}
+[5.003357] (-) TimerEvent: {}
+[5.104062] (-) TimerEvent: {}
+[5.205105] (-) TimerEvent: {}
+[5.306636] (-) TimerEvent: {}
+[5.401457] (lidar_map_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_map_publisher', 'build', '--build-base', '/ros2_ws/build/lidar_map_publisher/build', 'install', '--record', '/ros2_ws/build/lidar_map_publisher/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/lidar_map_publisher', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/lidar_map_publisher', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages:'}, 'shell': False}
+[5.407196] (-) TimerEvent: {}
+[5.484019] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtlebot', 'build', '--build-base', '/ros2_ws/build/my_turtlebot/build', 'install', '--record', '/ros2_ws/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/RobotAutonomy', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/my_turtlebot', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/my_turtlebot/prefix_override:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:'}, 'shell': False}
+[5.509610] (-) TimerEvent: {}
+[5.620667] (lidar_mapper) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lidar_mapper', 'build', '--build-base', '/ros2_ws/build/lidar_mapper/build', 'install', '--record', '/ros2_ws/build/lidar_mapper/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/lidar_mapper', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/lidar_mapper', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/lidar_mapper/prefix_override:/ros2_ws/install/lidar_mapper/lib/python3.10/site-packages:'}, 'shell': False}
+[5.622633] (-) TimerEvent: {}
+[5.678459] (test_nodes) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/test_nodes', 'build', '--build-base', '/ros2_ws/build/test_nodes/build', 'install', '--record', '/ros2_ws/build/test_nodes/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/test_nodes', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/test_nodes', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages:'}, 'shell': False}
+[5.740980] (-) TimerEvent: {}
+[5.741806] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/ros2_ws/build/py_pubsub/build', 'install', '--record', '/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/py_pubsub', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/py_pubsub', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/py_pubsub/prefix_override:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:'}, 'shell': False}
+[5.841792] (-) TimerEvent: {}
+[5.944110] (-) TimerEvent: {}
+[6.051054] (-) TimerEvent: {}
+[6.154825] (-) TimerEvent: {}
+[6.258523] (-) TimerEvent: {}
+[6.369881] (-) TimerEvent: {}
+[6.470519] (-) TimerEvent: {}
+[6.577951] (-) TimerEvent: {}
+[6.595437] (lidar_map_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[6.608023] (lidar_map_publisher) StdoutLine: {'line': b'writing ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/PKG-INFO\n'}
+[6.610729] (lidar_map_publisher) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/dependency_links.txt\n'}
+[6.612867] (lidar_map_publisher) StdoutLine: {'line': b'writing entry points to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/entry_points.txt\n'}
+[6.614731] (lidar_map_publisher) StdoutLine: {'line': b'writing requirements to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/requires.txt\n'}
+[6.622913] (lidar_map_publisher) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/top_level.txt\n'}
+[6.629348] (lidar_map_publisher) StdoutLine: {'line': b"reading manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'\n"}
+[6.631273] (lidar_map_publisher) StdoutLine: {'line': b"writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'\n"}
+[6.631776] (lidar_map_publisher) StdoutLine: {'line': b'running build\n'}
+[6.631983] (lidar_map_publisher) StdoutLine: {'line': b'running build_py\n'}
+[6.632301] (lidar_map_publisher) StdoutLine: {'line': b'running install\n'}
+[6.633975] (lidar_map_publisher) StdoutLine: {'line': b'running install_lib\n'}
+[6.636986] (lidar_map_publisher) StdoutLine: {'line': b'running install_data\n'}
+[6.637305] (lidar_map_publisher) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.641221] (lidar_map_publisher) StdoutLine: {'line': b"removing '/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.642154] (lidar_map_publisher) StdoutLine: {'line': b'Copying ../../build/lidar_map_publisher/lidar_map_publisher.egg-info to /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info\n'}
+[6.646044] (lidar_map_publisher) StdoutLine: {'line': b'running install_scripts\n'}
+[6.665361] (lidar_mapper) StdoutLine: {'line': b'running egg_info\n'}
+[6.667872] (lidar_mapper) StdoutLine: {'line': b'writing ../../build/lidar_mapper/lidar_mapper.egg-info/PKG-INFO\n'}
+[6.668300] (lidar_mapper) StdoutLine: {'line': b'writing dependency_links to ../../build/lidar_mapper/lidar_mapper.egg-info/dependency_links.txt\n'}
+[6.668592] (lidar_mapper) StdoutLine: {'line': b'writing entry points to ../../build/lidar_mapper/lidar_mapper.egg-info/entry_points.txt\n'}
+[6.669476] (lidar_mapper) StdoutLine: {'line': b'writing requirements to ../../build/lidar_mapper/lidar_mapper.egg-info/requires.txt\n'}
+[6.669768] (lidar_mapper) StdoutLine: {'line': b'writing top-level names to ../../build/lidar_mapper/lidar_mapper.egg-info/top_level.txt\n'}
+[6.673402] (lidar_mapper) StdoutLine: {'line': b"reading manifest file '../../build/lidar_mapper/lidar_mapper.egg-info/SOURCES.txt'\n"}
+[6.677302] (lidar_mapper) StdoutLine: {'line': b"writing manifest file '../../build/lidar_mapper/lidar_mapper.egg-info/SOURCES.txt'\n"}
+[6.677544] (lidar_mapper) StdoutLine: {'line': b'running build\n'}
+[6.677752] (lidar_mapper) StdoutLine: {'line': b'running build_py\n'}
+[6.678051] (-) TimerEvent: {}
+[6.678456] (lidar_mapper) StdoutLine: {'line': b'copying lidar_mapper/lidar_mapper_node.py -> /ros2_ws/build/lidar_mapper/build/lib/lidar_mapper\n'}
+[6.696072] (lidar_mapper) StdoutLine: {'line': b'running install\n'}
+[6.696452] (lidar_mapper) StdoutLine: {'line': b'running install_lib\n'}
+[6.696623] (lidar_mapper) StdoutLine: {'line': b'copying /ros2_ws/build/lidar_mapper/build/lib/lidar_mapper/lidar_mapper_node.py -> /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper\n'}
+[6.696778] (lidar_mapper) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper/lidar_mapper_node.py to lidar_mapper_node.cpython-310.pyc\n'}
+[6.696925] (lidar_mapper) StdoutLine: {'line': b'running install_data\n'}
+[6.697092] (lidar_mapper) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.709252] (lidar_mapper) StdoutLine: {'line': b"removing '/ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.709639] (lidar_mapper) StdoutLine: {'line': b'Copying ../../build/lidar_mapper/lidar_mapper.egg-info to /ros2_ws/install/lidar_mapper/lib/python3.10/site-packages/lidar_mapper-0.0.0-py3.10.egg-info\n'}
+[6.709825] (lidar_mapper) StdoutLine: {'line': b'running install_scripts\n'}
+[6.711007] (lidar_map_publisher) StdoutLine: {'line': b'Installing map_publisher script to /ros2_ws/install/lidar_map_publisher/lib/lidar_map_publisher\n'}
+[6.712241] (lidar_map_publisher) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/lidar_map_publisher/install.log'\n"}
+[6.778218] (-) TimerEvent: {}
+[6.799068] (lidar_map_publisher) CommandEnded: {'returncode': 0}
+[6.821768] (lidar_mapper) StdoutLine: {'line': b'Installing mapper script to /ros2_ws/install/lidar_mapper/lib/lidar_mapper\n'}
+[6.822254] (lidar_mapper) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/lidar_mapper/install.log'\n"}
+[6.866477] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[6.867924] (lidar_map_publisher) JobEnded: {'identifier': 'lidar_map_publisher', 'rc': 0}
+[6.870220] (my_turtlebot) StdoutLine: {'line': b'writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[6.872608] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[6.885807] (-) TimerEvent: {}
+[6.886172] (my_turtlebot) StdoutLine: {'line': b'writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[6.886431] (my_turtlebot) StdoutLine: {'line': b'writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[6.886596] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[6.886755] (my_turtlebot) StdoutLine: {'line': b"reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[6.891163] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[6.892945] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[6.894054] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[6.914120] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[6.914533] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[6.914724] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[6.924473] (lidar_mapper) CommandEnded: {'returncode': 0}
+[6.929521] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.941701] (my_turtlebot) StdoutLine: {'line': b"removing '/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[6.941918] (my_turtlebot) StdoutLine: {'line': b'Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info\n'}
+[6.942093] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[6.958323] (lidar_mapper) JobEnded: {'identifier': 'lidar_mapper', 'rc': 0}
+[6.971022] (test_nodes) StdoutLine: {'line': b'running egg_info\n'}
+[6.973631] (test_nodes) StdoutLine: {'line': b'writing ../../build/test_nodes/test_nodes.egg-info/PKG-INFO\n'}
+[6.984630] (test_nodes) StdoutLine: {'line': b'writing dependency_links to ../../build/test_nodes/test_nodes.egg-info/dependency_links.txt\n'}
+[6.984884] (test_nodes) StdoutLine: {'line': b'writing entry points to ../../build/test_nodes/test_nodes.egg-info/entry_points.txt\n'}
+[6.985053] (test_nodes) StdoutLine: {'line': b'writing requirements to ../../build/test_nodes/test_nodes.egg-info/requires.txt\n'}
+[6.985270] (test_nodes) StdoutLine: {'line': b'writing top-level names to ../../build/test_nodes/test_nodes.egg-info/top_level.txt\n'}
+[6.985453] (test_nodes) StdoutLine: {'line': b"reading manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'\n"}
+[6.985615] (test_nodes) StdoutLine: {'line': b"writing manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'\n"}
+[6.985789] (test_nodes) StdoutLine: {'line': b'running build\n'}
+[6.986045] (-) TimerEvent: {}
+[6.989764] (test_nodes) StdoutLine: {'line': b'running build_py\n'}
+[6.990305] (test_nodes) StdoutLine: {'line': b'running install\n'}
+[6.990480] (test_nodes) StdoutLine: {'line': b'running install_lib\n'}
+[6.990880] (test_nodes) StdoutLine: {'line': b'running install_data\n'}
+[6.998621] (test_nodes) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.007947] (test_nodes) StdoutLine: {'line': b"removing '/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.008596] (test_nodes) StdoutLine: {'line': b'Copying ../../build/test_nodes/test_nodes.egg-info to /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info\n'}
+[7.010545] (test_nodes) StdoutLine: {'line': b'running install_scripts\n'}
+[7.059851] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/my_turtlebot/install.log'\n"}
+[7.087046] (-) TimerEvent: {}
+[7.105055] (test_nodes) StdoutLine: {'line': b'Installing lidar_test script to /ros2_ws/install/test_nodes/lib/test_nodes\n'}
+[7.107171] (test_nodes) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/test_nodes/install.log'\n"}
+[7.110899] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[7.112961] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[7.117356] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[7.117754] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[7.119013] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[7.119237] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[7.130733] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.133742] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[7.134620] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[7.135108] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[7.136482] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[7.137955] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[7.153286] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[7.154457] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.171529] (py_pubsub) StdoutLine: {'line': b"removing '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.174428] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[7.177331] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[7.188423] (-) TimerEvent: {}
+[7.223810] (my_turtlebot) CommandEnded: {'returncode': 0}
+[7.248537] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[7.279512] (test_nodes) CommandEnded: {'returncode': 0}
+[7.293945] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.294386] (-) TimerEvent: {}
+[7.296682] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[7.300088] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/py_pubsub/install.log'\n"}
+[7.318867] (test_nodes) JobEnded: {'identifier': 'test_nodes', 'rc': 0}
+[7.394666] (-) TimerEvent: {}
+[7.420685] (py_pubsub) CommandEnded: {'returncode': 0}
+[7.457448] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[7.458445] (-) EventReactorShutdown: {}

@@ -1,0 +1,319 @@
+[0.000000] (-) TimerEvent: {}
+[0.000570] (my_turtlebot) JobQueued: {'identifier': 'my_turtlebot', 'dependencies': OrderedDict()}
+[0.000659] (py_pubsub) JobQueued: {'identifier': 'py_pubsub', 'dependencies': OrderedDict()}
+[0.000678] (my_turtlebot) JobStarted: {'identifier': 'my_turtlebot'}
+[0.020731] (py_pubsub) JobStarted: {'identifier': 'py_pubsub'}
+[0.099381] (-) TimerEvent: {}
+[0.199815] (-) TimerEvent: {}
+[0.300193] (-) TimerEvent: {}
+[0.400657] (-) TimerEvent: {}
+[0.501075] (-) TimerEvent: {}
+[0.601458] (-) TimerEvent: {}
+[0.694571] (py_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pubsub', 'build', '--build-base', '/ros2_ws/build/py_pubsub/build', 'install', '--record', '/ros2_ws/build/py_pubsub/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/py_pubsub', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/py_pubsub', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/py_pubsub/prefix_override:/ros2_ws/install/py_pubsub/lib/python3.10/site-packages:'}, 'shell': False}
+[0.706101] (-) TimerEvent: {}
+[0.706227] (my_turtlebot) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/my_turtlebot', 'build', '--build-base', '/ros2_ws/build/my_turtlebot/build', 'install', '--record', '/ros2_ws/build/my_turtlebot/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/ros2_ws/src/RobotAutonomy', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'ubuntu', 'HOSTNAME': 'b0a262f14623', 'HOME': '/root', 'LC_CTYPE': 'C.UTF-8', 'COLORTERM': 'truecolor', 'SUDO_UID': '1000', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', 'TERM': 'xterm-256color', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'DISPLAY': ':1', 'XDG_CURRENT_DESKTOP': 'MATE', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'SUDO_COMMAND': '/usr/bin/colcon build', 'SHELL': '/bin/bash', 'SUDO_USER': 'ubuntu', 'PASSWD': 'ubuntu', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/ros2_ws/build/my_turtlebot', 'COLCON': '1', 'PYTHONPATH': '/ros2_ws/build/my_turtlebot/prefix_override:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages:'}, 'shell': False}
+[0.806419] (-) TimerEvent: {}
+[0.872540] (py_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[0.873357] (py_pubsub) StdoutLine: {'line': b'writing ../../build/py_pubsub/py_pubsub.egg-info/PKG-INFO\n'}
+[0.873768] (py_pubsub) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pubsub/py_pubsub.egg-info/dependency_links.txt\n'}
+[0.874183] (py_pubsub) StdoutLine: {'line': b'writing entry points to ../../build/py_pubsub/py_pubsub.egg-info/entry_points.txt\n'}
+[0.874395] (py_pubsub) StdoutLine: {'line': b'writing requirements to ../../build/py_pubsub/py_pubsub.egg-info/requires.txt\n'}
+[0.874563] (py_pubsub) StdoutLine: {'line': b'writing top-level names to ../../build/py_pubsub/py_pubsub.egg-info/top_level.txt\n'}
+[0.876807] (py_pubsub) StdoutLine: {'line': b"reading manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.877737] (py_pubsub) StdoutLine: {'line': b"writing manifest file '../../build/py_pubsub/py_pubsub.egg-info/SOURCES.txt'\n"}
+[0.877883] (py_pubsub) StdoutLine: {'line': b'running build\n'}
+[0.877947] (py_pubsub) StdoutLine: {'line': b'running build_py\n'}
+[0.878277] (py_pubsub) StdoutLine: {'line': b'running install\n'}
+[0.878588] (py_pubsub) StdoutLine: {'line': b'running install_lib\n'}
+[0.879261] (my_turtlebot) StdoutLine: {'line': b'running egg_info\n'}
+[0.879929] (py_pubsub) StdoutLine: {'line': b'running install_data\n'}
+[0.880165] (py_pubsub) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.880236] (my_turtlebot) StdoutLine: {'line': b'creating ../../build/my_turtlebot/my_turtlebot.egg-info\n'}
+[0.881078] (my_turtlebot) StdoutLine: {'line': b'writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO\n'}
+[0.881274] (py_pubsub) StdoutLine: {'line': b"removing '/ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.881485] (my_turtlebot) StdoutLine: {'line': b'writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt\n'}
+[0.881711] (my_turtlebot) StdoutLine: {'line': b'writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt\n'}
+[0.881795] (my_turtlebot) StdoutLine: {'line': b'writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt\n'}
+[0.882000] (my_turtlebot) StdoutLine: {'line': b'writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt\n'}
+[0.882290] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.882350] (py_pubsub) StdoutLine: {'line': b'Copying ../../build/py_pubsub/py_pubsub.egg-info to /ros2_ws/install/py_pubsub/lib/python3.10/site-packages/py_pubsub-0.0.0-py3.10.egg-info\n'}
+[0.884234] (my_turtlebot) StdoutLine: {'line': b"reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.884460] (py_pubsub) StdoutLine: {'line': b'running install_scripts\n'}
+[0.886173] (my_turtlebot) StdoutLine: {'line': b"writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'\n"}
+[0.886380] (my_turtlebot) StdoutLine: {'line': b'running build\n'}
+[0.886467] (my_turtlebot) StdoutLine: {'line': b'running build_py\n'}
+[0.886691] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/build/my_turtlebot/build\n'}
+[0.887799] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/build/my_turtlebot/build/lib\n'}
+[0.888753] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[0.889263] (my_turtlebot) StdoutLine: {'line': b'copying my_turtlebot/__init__.py -> /ros2_ws/build/my_turtlebot/build/lib/my_turtlebot\n'}
+[0.889906] (my_turtlebot) StdoutLine: {'line': b'running install\n'}
+[0.890281] (my_turtlebot) StdoutLine: {'line': b'running install_lib\n'}
+[0.891133] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[0.892050] (my_turtlebot) StdoutLine: {'line': b'copying /ros2_ws/build/my_turtlebot/build/lib/my_turtlebot/__init__.py -> /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot\n'}
+[0.892583] (my_turtlebot) StdoutLine: {'line': b'byte-compiling /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot/__init__.py to __init__.cpython-310.pyc\n'}
+[0.893481] (my_turtlebot) StdoutLine: {'line': b'running install_data\n'}
+[0.893686] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/ament_index\n'}
+[0.894433] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/ament_index/resource_index\n'}
+[0.895451] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[0.896212] (my_turtlebot) StdoutLine: {'line': b'copying resource/my_turtlebot -> /ros2_ws/install/my_turtlebot/share/ament_index/resource_index/packages\n'}
+[0.896501] (my_turtlebot) StdoutLine: {'line': b'copying package.xml -> /ros2_ws/install/my_turtlebot/share/my_turtlebot\n'}
+[0.896746] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.897386] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_bringup.launch.py -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.897618] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_simulation.launch.py -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.897724] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_rviz.launch.py -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.897965] (my_turtlebot) StdoutLine: {'line': b'copying launch/turtlebot_gazebo.launch.py -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/launch\n'}
+[0.898097] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[0.898440] (my_turtlebot) StdoutLine: {'line': b'copying rviz/rviz_launch.rviz -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/rviz\n'}
+[0.898565] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[0.899658] (my_turtlebot) StdoutLine: {'line': b'copying worlds/lab_world.world -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/worlds\n'}
+[0.900243] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.901126] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.pgm -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.901291] (my_turtlebot) StdoutLine: {'line': b'copying maps/map.yaml -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/maps\n'}
+[0.901483] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models\n'}
+[0.902182] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.902780] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.903014] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2\n'}
+[0.903418] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.904019] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rl.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.904356] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fl.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.904479] (py_pubsub) StdoutLine: {'line': b'Installing listener script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.904635] (py_pubsub) StdoutLine: {'line': b'Installing talker script to /ros2_ws/install/py_pubsub/lib/py_pubsub\n'}
+[0.904894] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/hull.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.905087] (py_pubsub) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/py_pubsub/install.log'\n"}
+[0.906473] (-) TimerEvent: {}
+[0.907140] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_fr.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.907445] (my_turtlebot) StdoutLine: {'line': b'copying models/parrot_bebop_2/meshes/propeller_rr.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/parrot_bebop_2/meshes\n'}
+[0.907808] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.909371] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.909929] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue\n'}
+[0.910079] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.911614] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.912052] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.912241] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.912491] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue_Col.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.913062] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/meshes/OfficeChairBlue.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/meshes\n'}
+[0.913440] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.914319] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.914692] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.915170] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.915482] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.915702] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails\n'}
+[0.915920] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.917224] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.917711] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.917927] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.918296] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.918590] (my_turtlebot) StdoutLine: {'line': b'copying models/OfficeChairBlue/thumbnails/meta/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/OfficeChairBlue/thumbnails/meta\n'}
+[0.918926] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.919928] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.920308] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker\n'}
+[0.920516] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials\n'}
+[0.921413] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.922388] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_stand.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.922654] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_1.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.922937] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_3.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.923261] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_4.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.923449] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_2.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.923776] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/scripts/my_marker_5.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/scripts\n'}
+[0.923992] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.924387] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_4.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.924727] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_5.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.925414] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/metal_texture.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.925628] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_1.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.926371] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_2.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.926664] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/materials/textures/marker_3.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/materials/textures\n'}
+[0.927324] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.928163] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.928427] (my_turtlebot) StdoutLine: {'line': b'copying models/marker/meshes/marker_stand.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/marker/meshes\n'}
+[0.928715] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.929254] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.929456] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.929723] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier\n'}
+[0.929948] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[0.930868] (my_turtlebot) StdoutLine: {'line': b'copying models/Drc_practice_orange_jersey_barrier/meshes/jersey_barrier.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Drc_practice_orange_jersey_barrier/meshes\n'}
+[0.931189] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.931360] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.931749] (my_turtlebot) StdoutLine: {'line': b'copying models/unit_box/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/unit_box\n'}
+[0.931980] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.932310] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.932526] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.932752] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier\n'}
+[0.933817] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[0.934500] (my_turtlebot) StdoutLine: {'line': b'copying models/drc_practice_yellow_jersey_barrier/meshes/jersey_barrier.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/drc_practice_yellow_jersey_barrier/meshes\n'}
+[0.935045] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.935991] (py_pubsub) CommandEnded: {'returncode': 0}
+[0.942448] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.943392] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project\n'}
+[0.943946] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials\n'}
+[0.944147] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.944323] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/my_ground_plane.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.944494] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/scripts/wall.material -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/scripts\n'}
+[0.944665] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.944831] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/gray-wall.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.949898] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/materials/textures/MyImage.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/materials/textures\n'}
+[0.951604] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[0.952732] (my_turtlebot) StdoutLine: {'line': b'copying models/final_project/meshes/chair.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/final_project/meshes\n'}
+[0.954215] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.954765] (py_pubsub) JobEnded: {'identifier': 'py_pubsub', 'rc': 0}
+[0.955751] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.955846] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin\n'}
+[0.955985] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.956887] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.957129] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin_Diffuse.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.957752] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/meshes/TrashBin.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/meshes\n'}
+[0.957982] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.958371] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.958692] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.958967] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.959173] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.959318] (my_turtlebot) StdoutLine: {'line': b'copying models/TrashBin/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/TrashBin/thumbnails\n'}
+[0.959597] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.960345] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.960631] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack\n'}
+[0.960879] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials\n'}
+[0.961539] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[0.961859] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/materials/textures/Backpack.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/materials/textures\n'}
+[0.962935] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[0.963633] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/meshes/Backpack.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/meshes\n'}
+[0.964018] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.964845] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.965087] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.965479] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.965817] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.966047] (my_turtlebot) StdoutLine: {'line': b'copying models/Backpack/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Backpack/thumbnails\n'}
+[0.966265] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.967066] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.967322] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box\n'}
+[0.967712] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials\n'}
+[0.968272] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[0.969249] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/materials/textures/cardboard_box.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/materials/textures\n'}
+[0.969811] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[0.970394] (my_turtlebot) StdoutLine: {'line': b'copying models/cardboard_box/meshes/cardboard_box.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/cardboard_box/meshes\n'}
+[0.970883] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.972191] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.972411] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_2.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.972623] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.972783] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_3.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.972928] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.973121] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/bookshelf_diffuse.jpg -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf\n'}
+[0.973658] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.974183] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.974372] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.974778] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.974954] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.975189] (my_turtlebot) StdoutLine: {'line': b'copying models/Bookshelf/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Bookshelf/thumbnails\n'}
+[0.975413] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.976060] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.976211] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box\n'}
+[0.976474] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials\n'}
+[0.977003] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[0.977821] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/materials/textures/cardboard_box.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/materials/textures\n'}
+[0.978492] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[0.979120] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/meshes/cardboard_box.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/meshes\n'}
+[0.979341] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.979973] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.980202] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.980569] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.980886] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.981158] (my_turtlebot) StdoutLine: {'line': b'copying models/Cardboard box/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Cardboard box/thumbnails\n'}
+[0.981518] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.982324] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.982505] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100\n'}
+[0.982625] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.983133] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.983292] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/MiR100_Diffuse.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.984120] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.984246] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelMain.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.984514] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/WheelSide.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.984803] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.985021] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/meshes/body.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/meshes\n'}
+[0.985290] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.986234] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.986625] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.986856] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.987163] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.987350] (my_turtlebot) StdoutLine: {'line': b'copying models/MiR100/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MiR100/thumbnails\n'}
+[0.987645] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.989036] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.989600] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2\n'}
+[0.989901] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.990762] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rl.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.991302] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fl.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[0.991997] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/hull.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.000717] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_fr.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.001219] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/meshes/propeller_rr.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/meshes\n'}
+[1.001808] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.003075] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.003573] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.004042] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.004629] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.004899] (my_turtlebot) StdoutLine: {'line': b'copying models/Parrot Bebop 2/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Parrot Bebop 2/thumbnails\n'}
+[1.005270] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.006168] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.006537] (-) TimerEvent: {}
+[1.006722] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.006829] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_3.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.006981] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at\n'}
+[1.007055] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.007477] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/wheel.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.007865] (my_turtlebot) StdoutLine: {'line': b'copying models/pioneer3at/meshes/chassis.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/pioneer3at/meshes\n'}
+[1.008185] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.008670] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.008878] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.009502] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers\n'}
+[1.009696] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.010094] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.010229] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.010543] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.010710] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.010853] (my_turtlebot) StdoutLine: {'line': b'copying models/DRC_Practice_135_degree_barriers/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/DRC_Practice_135_degree_barriers/thumbnails\n'}
+[1.011038] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.012215] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.012374] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard\n'}
+[1.012606] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.013175] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.013527] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.013718] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/monitor.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.013882] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/meshes/keyboard.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/meshes\n'}
+[1.014246] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.014965] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.015190] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.015409] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.015707] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.015921] (my_turtlebot) StdoutLine: {'line': b'copying models/MonitorAndKeyboard/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/MonitorAndKeyboard/thumbnails\n'}
+[1.016187] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.023029] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.023456] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable\n'}
+[1.023903] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.024393] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.024551] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.mtl -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.024713] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/rectable.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.026356] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable_Col.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.026599] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/meshes/RecTable.obj -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/meshes\n'}
+[1.026741] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.026973] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.027123] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.027353] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.027657] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.027857] (my_turtlebot) StdoutLine: {'line': b'copying models/RecTable/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/RecTable/thumbnails\n'}
+[1.028038] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.028646] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.029093] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model.config -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.029279] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_3.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.029439] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/model-1_4.sdf -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT\n'}
+[1.029680] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.030319] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/wheel.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.030484] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/meshes/chassis.dae -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/meshes\n'}
+[1.030737] (my_turtlebot) StdoutLine: {'line': b'creating /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.031322] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/1.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.031628] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/4.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.031826] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/3.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.031961] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/2.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.032160] (my_turtlebot) StdoutLine: {'line': b'copying models/Pioneer 3AT/thumbnails/5.png -> /ros2_ws/install/my_turtlebot/share/my_turtlebot/models/Pioneer 3AT/thumbnails\n'}
+[1.032350] (my_turtlebot) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.034176] (my_turtlebot) StdoutLine: {'line': b'Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info\n'}
+[1.036938] (my_turtlebot) StdoutLine: {'line': b'running install_scripts\n'}
+[1.058017] (my_turtlebot) StdoutLine: {'line': b"writing list of installed files to '/ros2_ws/build/my_turtlebot/install.log'\n"}
+[1.084966] (my_turtlebot) CommandEnded: {'returncode': 0}
+[1.094124] (my_turtlebot) JobEnded: {'identifier': 'my_turtlebot', 'rc': 0}
+[1.095328] (-) EventReactorShutdown: {}

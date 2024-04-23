@@ -1,0 +1,20 @@
+[5.239s] Invoking command in '/ros2_ws/src/RobotAutonomy': PYTHONPATH=/ros2_ws/build/my_turtlebot/prefix_override:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /ros2_ws/build/my_turtlebot/build install --record /ros2_ws/build/my_turtlebot/install.log --single-version-externally-managed install_data
+[6.124s] running egg_info
+[6.131s] writing ../../build/my_turtlebot/my_turtlebot.egg-info/PKG-INFO
+[6.131s] writing dependency_links to ../../build/my_turtlebot/my_turtlebot.egg-info/dependency_links.txt
+[6.132s] writing entry points to ../../build/my_turtlebot/my_turtlebot.egg-info/entry_points.txt
+[6.132s] writing requirements to ../../build/my_turtlebot/my_turtlebot.egg-info/requires.txt
+[6.132s] writing top-level names to ../../build/my_turtlebot/my_turtlebot.egg-info/top_level.txt
+[6.142s] reading manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[6.161s] writing manifest file '../../build/my_turtlebot/my_turtlebot.egg-info/SOURCES.txt'
+[6.161s] running build
+[6.161s] running build_py
+[6.163s] running install
+[6.165s] running install_lib
+[6.168s] running install_data
+[6.187s] running install_egg_info
+[6.196s] removing '/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info' (and everything under it)
+[6.198s] Copying ../../build/my_turtlebot/my_turtlebot.egg-info to /ros2_ws/install/my_turtlebot/lib/python3.10/site-packages/my_turtlebot-0.0.0-py3.10.egg-info
+[6.201s] running install_scripts
+[6.298s] writing list of installed files to '/ros2_ws/build/my_turtlebot/install.log'
+[6.375s] Invoked command in '/ros2_ws/src/RobotAutonomy' returned '0': PYTHONPATH=/ros2_ws/build/my_turtlebot/prefix_override:/ros2_ws/install/my_turtlebot/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_turtlebot build --build-base /ros2_ws/build/my_turtlebot/build install --record /ros2_ws/build/my_turtlebot/install.log --single-version-externally-managed install_data

@@ -1,0 +1,24 @@
+[1.849s] Invoking command in '/ros2_ws/src/test_nodes': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data
+[2.277s] running egg_info
+[2.279s] writing ../../build/test_nodes/test_nodes.egg-info/PKG-INFO
+[2.280s] writing dependency_links to ../../build/test_nodes/test_nodes.egg-info/dependency_links.txt
+[2.281s] writing entry points to ../../build/test_nodes/test_nodes.egg-info/entry_points.txt
+[2.281s] writing requirements to ../../build/test_nodes/test_nodes.egg-info/requires.txt
+[2.282s] writing top-level names to ../../build/test_nodes/test_nodes.egg-info/top_level.txt
+[2.286s] reading manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[2.291s] writing manifest file '../../build/test_nodes/test_nodes.egg-info/SOURCES.txt'
+[2.292s] running build
+[2.292s] running build_py
+[2.293s] copying test_nodes/lidar_test.py -> /ros2_ws/build/test_nodes/build/lib/test_nodes
+[2.293s] running install
+[2.293s] running install_lib
+[2.294s] copying /ros2_ws/build/test_nodes/build/lib/test_nodes/lidar_test.py -> /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes
+[2.294s] byte-compiling /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes/lidar_test.py to lidar_test.cpython-310.pyc
+[2.295s] running install_data
+[2.295s] running install_egg_info
+[2.297s] removing '/ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info' (and everything under it)
+[2.298s] Copying ../../build/test_nodes/test_nodes.egg-info to /ros2_ws/install/test_nodes/lib/python3.10/site-packages/test_nodes-0.0.0-py3.10.egg-info
+[2.302s] running install_scripts
+[2.348s] Installing lidar_test script to /ros2_ws/install/test_nodes/lib/test_nodes
+[2.349s] writing list of installed files to '/ros2_ws/build/test_nodes/install.log'
+[2.398s] Invoked command in '/ros2_ws/src/test_nodes' returned '0': PYTHONPATH=/ros2_ws/build/test_nodes/prefix_override:/ros2_ws/install/test_nodes/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/test_nodes build --build-base /ros2_ws/build/test_nodes/build install --record /ros2_ws/build/test_nodes/install.log --single-version-externally-managed install_data

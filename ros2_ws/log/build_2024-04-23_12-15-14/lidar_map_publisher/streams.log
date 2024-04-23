@@ -1,0 +1,21 @@
+[5.086s] Invoking command in '/ros2_ws/src/lidar_map_publisher': PYTHONPATH=/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_map_publisher build --build-base /ros2_ws/build/lidar_map_publisher/build install --record /ros2_ws/build/lidar_map_publisher/install.log --single-version-externally-managed install_data
+[5.889s] running egg_info
+[5.899s] writing ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/PKG-INFO
+[5.902s] writing dependency_links to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/dependency_links.txt
+[5.904s] writing entry points to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/entry_points.txt
+[5.908s] writing requirements to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/requires.txt
+[5.910s] writing top-level names to ../../build/lidar_map_publisher/lidar_map_publisher.egg-info/top_level.txt
+[5.922s] reading manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'
+[5.928s] writing manifest file '../../build/lidar_map_publisher/lidar_map_publisher.egg-info/SOURCES.txt'
+[5.940s] running build
+[5.940s] running build_py
+[5.940s] running install
+[5.941s] running install_lib
+[5.941s] running install_data
+[5.941s] running install_egg_info
+[5.961s] removing '/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info' (and everything under it)
+[5.961s] Copying ../../build/lidar_map_publisher/lidar_map_publisher.egg-info to /ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages/lidar_map_publisher-0.0.0-py3.10.egg-info
+[5.961s] running install_scripts
+[6.031s] Installing map_publisher script to /ros2_ws/install/lidar_map_publisher/lib/lidar_map_publisher
+[6.031s] writing list of installed files to '/ros2_ws/build/lidar_map_publisher/install.log'
+[6.234s] Invoked command in '/ros2_ws/src/lidar_map_publisher' returned '0': PYTHONPATH=/ros2_ws/build/lidar_map_publisher/prefix_override:/ros2_ws/install/lidar_map_publisher/lib/python3.10/site-packages: /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/lidar_map_publisher build --build-base /ros2_ws/build/lidar_map_publisher/build install --record /ros2_ws/build/lidar_map_publisher/install.log --single-version-externally-managed install_data
